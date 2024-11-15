@@ -930,8 +930,10 @@ a code {
           word-wrap: break-word;
         }
         img {
-          max-width: 100%;
+          max-width: 95%;
           border-radius: 5px;
+          display: block;
+          margin: auto;
           overflow: hidden;
         }
         @media screen and (max-width: $single-column-max-width) {
