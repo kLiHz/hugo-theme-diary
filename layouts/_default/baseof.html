@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     {{- partial "head.html" . -}}
+    {{- block "rss" . }}{{- end}}
     <body>
     	<div id="app">
             {{- partial "mobile-header.html" . -}}
