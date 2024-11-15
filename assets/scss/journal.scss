@@ -206,6 +206,15 @@ a {
   }
 }
 
+a code {
+  text-decoration: underline;
+  @media screen and (max-width: $single-column-max-width) {
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
 .a-block {
   display: block;
   text-decoration: none !important;
