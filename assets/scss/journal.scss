@@ -840,10 +840,9 @@ a {
 
         .post-subtitle {
           font-size: $post-subtitle-size;
-          line-height: 1.2em !important;
           width: 80%;
           opacity: 0.6;
-          padding: 0px 0 8px 0;
+          padding: 16px 0 16px 0;
         }
 
         .post-meta {
@@ -877,12 +876,12 @@ a {
         font-size: $post-title-size;
         font-weight: 600;
         font-style: normal;
-        line-height: 1.5em;
         .post-subtitle {
+          font-weight: initial;
           font-size: $post-subtitle-size;
           width: 80%;
           opacity: 0.6;
-          padding: 0px 0 8px 0;
+          padding: 16px 0 16px 0;
         }
         .post-meta {
           margin: 0;
